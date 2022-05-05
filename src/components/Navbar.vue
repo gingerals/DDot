@@ -2,7 +2,10 @@
 <router-View>
   <nav class="navbar navbar-expand-md navbar-light bg-primary">
   <div class="container-fluid">
-    <img alt="D'Dot" class="navbar-brand" src="@/assets/logo.png" />
+    <a class="navbar-brand" href="#">
+      <img alt="D'Dot" src="@/assets/logo.png" class="d-inline-block align-text-top" width="30" height="30"/>
+      D'Dot
+    </a>
     <!--a class="navbar-brand"  >D'Dot</a-->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -46,8 +49,10 @@
 
 <style>
 .img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+  width: 24;
+  height: 30;
+  max-width: 100%;
+  position: static;
+  background-color: aliceblue;
 }
 </style>

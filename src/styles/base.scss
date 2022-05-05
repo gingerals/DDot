@@ -5,18 +5,6 @@ $body-color: #F584EB;
 
 // Theme custom colors
 $primary: #6CF599;
-$secondary: #F584EB;
-
-
-// Navbar
-.navbar-brand {
-    width: 3em;
-    height: 3em;
-    max-width: 100%;
-    transform: translateY(-50%);
-    background-color: aliceblue;
-
-}
-  
+$secondary: #F584EB;  
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
