@@ -7,7 +7,7 @@
 
  
  // Default variable overrides
-$body-bg: #000;
+$body-bg: darken(#78ADF5, 50%);
 $body-color: #F584EB;
 
 
@@ -46,7 +46,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 h1 {
     font-family: 'Pacifico', cursive;
-    text-shadow: 3px 3px $bc-aqua;
+    text-shadow: 4px 4px $bc-aqua;
     font-weight: bolder;
     border: #AC84F5 2px;
 }
@@ -54,12 +54,18 @@ h2{
     font-family: 'Pacifico', cursive;
     text-shadow: 3px 3px $bc-yellow;
 }
+h3{
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px $bc-orange;
+}
 p {
     font-family: 'Koulen', cursive;
 }
 
 .navbar {
     background-color: $bc-purple;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 1.5em;
 }
 .navbar-brand {
     font-family: 'Pacifico';

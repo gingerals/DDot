@@ -1,7 +1,7 @@
 <template>
   <div class="text-center row">
     <h1>Bienvenido a</h1>
-    <img src="@/assets/logo.png" class="mx-auto d-block rounded img-fluid col-6" alt="D'Dot logo">
+    <img src="@/assets/logo.svg" class="about-logo mx-auto d-block rounded img-fluid col-4" alt="D'Dot logo">
 
   <!-- Collapse -->
     <p>
@@ -26,31 +26,33 @@
             para su consumo ludico y medicinal. Además de otros productos
             que se llevan prefectamente de la mano.
             <br><br>
-            Nos encanta que estes aquí. Esperemos enceuntres algo de tu agrado.
+            Nos encanta que estes aquí. Esperemos encuentres algo de tu agrado.
           </p>
         </div>
       </div>
-      <div class="col-sm-12">
-        <div class="collapse multi-collapse" id="marcasCollapse">
-           <div class="row">
-    <div class="col">
-      <img src="@/assets/brands/Raw.png" alt="Raw">
-    </div>
-    <div class="col">
-      <img src="@/assets/brands/LRC.svg" alt="Lion Rolling Circus">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <img src="@/assets/brands/OCB.svg" alt="OCB">
-    </div>
-    <div class="col">
-      <img src="@/assets/brands/Blazy.png" alt="Blazy Susan">
-    </div>
-    <div class="col">
-      <img src="@/assets/brands/DK.webp" alt="D&K" style="filter: invert(100%);">
-    </div>
-  </div>
+
+    <div class="col-sm-12">
+      <div class="collapse multi-collapse" id="marcasCollapse">
+          <div class="row">
+            <div class="col">
+              <img class="brands-logo" src="@/assets/brands/Raw.png" alt="Raw">
+            </div>
+          <div class="col">
+            <img class="brands-logo" src="@/assets/brands/LRC.svg" alt="Lion Rolling Circus">
+          </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img class="brands-logo" src="@/assets/brands/OCB.svg" alt="OCB">
+            </div>
+            <div class="col">
+              <img class="brands-logo" src="@/assets/brands/Blazy.png" alt="Blazy Susan">
+            </div>
+            <div class="col">
+              <img class="brands-logo" src="@/assets/brands/DK.webp" alt="D&K" style="filter: invert(100%);">
+            </div>
+            <div class="col brands-logo"> <h3>Y más...</h3></div>
+          </div>
         </div>
       </div>
     </div>
@@ -62,8 +64,18 @@ h1 {
   padding-top: 7vh;
 }
 
-img {
-  width: 10em;
+.about-logo {
+  width: 2em;
   height: auto;
+  padding: 2em;
+}
+
+.brands-logo {
+  width: 10em;
+  padding: 1em;
+}
+
+collapse {
+  padding: 4em;
 }
 </style>
