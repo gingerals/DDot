@@ -6,7 +6,6 @@
       <img alt="D'Dot" src="@/assets/logo.png" class="d-inline-block align-text-top" width="30" height="30"/>
       D'Dot
     </a>
-    <!--a class="navbar-brand"  >D'Dot</a-->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -47,12 +46,3 @@
 </router-View>
 </template>
 
-<style>
-.img {
-  width: 24;
-  height: 30;
-  max-width: 100%;
-  position: static;
-  background-color: aliceblue;
-}
-</style>

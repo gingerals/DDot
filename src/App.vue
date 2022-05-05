@@ -11,10 +11,17 @@ export default {
 <template>
   <Navbar />
   <div class="container">
-    
-    <router-view />
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-xl">
+              <router-view />
+        </div>
+        <div class="col"></div>
+    </div>
+
   </div>
 </template>
 
 <style>
+
 </style>
