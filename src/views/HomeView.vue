@@ -3,7 +3,9 @@ import Carousel from '../components/Carousel.vue';
 </script>
 
 <template>
-    <h1></h1>
-
-<Carousel />
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-8"><Carousel /></div>
+        <div class="col"></div>
+    </div>
 </template>
