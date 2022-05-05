@@ -1,10 +1,9 @@
 <template>
 <router-View>
-  <nav class="navbar navbar-expand-md navbar-light bg-primary">
+  <nav class="navbar navbar-expand-md navbar-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
       <img alt="D'Dot" src="@/assets/logo.png" class="d-inline-block align-text-top" width="30" height="30"/>
-      D'Dot
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -46,8 +45,8 @@
 </router-View>
 </template>
 
-<style>
-navbar {
-  position: sticky;
+<style scoped>
+img {
+  width: 2em;
 }
 </style>

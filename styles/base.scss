@@ -47,6 +47,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 h1 {
     font-family: 'Pacifico', cursive;
     text-shadow: 3px 3px $bc-aqua;
+    font-weight: bolder;
+    border: #AC84F5 2px;
 }
 h2{
     font-family: 'Pacifico', cursive;
@@ -56,7 +58,9 @@ p {
     font-family: 'Koulen', cursive;
 }
 
-
+.navbar {
+    background-color: $bc-purple;
+}
 .navbar-brand {
     font-family: 'Pacifico';
 }
