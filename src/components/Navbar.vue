@@ -46,3 +46,8 @@
 </router-View>
 </template>
 
+<style>
+navbar {
+  position: sticky;
+}
+</style>

@@ -1,0 +1,66 @@
+/* custom.scss */    
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oleo+Script+Swash+Caps:wght@400;700&family=Pacifico&display=swap');
+
+/* import the necessary Bootstrap files */
+@import "../node_modules/bootstrap/scss/functions";
+
+ 
+ // Default variable overrides
+$body-bg: #000;
+$body-color: #F584EB;
+
+
+// Theme Colors
+$primary: #6CF599;
+$secondary: #F584EB; 
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+);
+
+
+// Brand Colors
+    $bc-aqua: #78F5E8;
+    $bc-orange: #F58753;
+    $bc-blue: #78ADF5;
+    $bc-purple: #AC84F5;
+    $bc-l-primary: #6CF599;
+    $bc-l-orange: #f5BD53;
+    $bc-yellow: #FAF375;
+
+
+// Custom Colors
+$custom-colors: (
+    "bc-aqua": $bc-aqua,
+    "bc-orange": $bc-orange,
+    "bc-blue": $bc-blue,
+    "bc-purple": $bc-purple,
+    "bc-l-primary": $bc-l-primary,
+    "bc-l-orange": $bc-l-orange,
+    "bc-yellow": $bc-yellow
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    text-shadow: 3px 3px $bc-aqua;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+    text-shadow: 3px 3px $bc-yellow;
+}
+p {
+    font-family: 'Koulen', cursive;
+}
+
+
+.navbar-brand {
+    font-family: 'Pacifico';
+}
+
+
+// Bootstrap from Node Modules
+@import "../node_modules/bootstrap/scss/bootstrap";
