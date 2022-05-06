@@ -6,7 +6,7 @@
     <h3>Conocenos:</h3><br>
   <!-- Collapse -->
     <p>
-      <a class="btn" data-bs-toggle="collapse" href="#equipoCollapse" role="button" aria-expanded="false"
+      <a class="btn" enter-active-class data-bs-toggle="collapse" href="#equipoCollapse" role="button" aria-expanded="false"
         aria-controls="multiCollapseExample1">
         <h2>Equipo</h2>
       </a>
@@ -78,5 +78,12 @@ h1 {
 
 collapse {
   padding: 4em;
+}
+.multi-collapse:active{
+  animation: backInDown 2s;
+}
+.btn:hover{
+    animation: fadeInDown;
+    animation-duration: .5s;
 }
 </style>

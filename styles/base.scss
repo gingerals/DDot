@@ -2,7 +2,11 @@
 // Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oleo+Script+Swash+Caps:wght@400;700&family=Pacifico&display=swap');
 
-/* import the necessary Bootstrap files */
+// import animate.css
+@import '../node_modules/animate.css/animate.css';
+
+
+// import the necessary Bootstrap files 
 @import "../node_modules/bootstrap/scss/functions";
 
  
@@ -61,7 +65,6 @@ h3{
 p {
     font-family: 'Koulen', cursive;
 }
-
 .navbar {
     background-color: $bc-purple;
     font-family: 'Oleo Script Swash Caps', cursive;
@@ -70,11 +73,26 @@ p {
 .navbar-brand {
     font-family: 'Pacifico';
 }
-a:hover,
+.nav-link:hover{
+    text-shadow: 4px 4px $secondary;
+    animation: bounce .5s;
+}
 a.router-link-active{
     text-shadow: 4px 4px $secondary;
 }
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s ease-out;
+}
 
+.page {
+    position: absolute;
+
+}
 
 // Bootstrap from Node Modules
 @import "../node_modules/bootstrap/scss/bootstrap";

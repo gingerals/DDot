@@ -1,6 +1,6 @@
 /* custom.scss */
 @import url("https://fonts.googleapis.com/css2?family=Koulen&family=Oleo+Script+Swash+Caps:wght@400;700&family=Pacifico&display=swap");
-/* import the necessary Bootstrap files */
+@import url(/home/ginger/ddot/node_modules/animate.css/animate.css);
 h1, .h1 {
   font-family: 'Pacifico', cursive;
   text-shadow: 4px 4px #78F5E8;
@@ -32,9 +32,29 @@ p {
   font-family: 'Pacifico';
 }
 
-a:hover,
+.nav-link:hover {
+  text-shadow: 4px 4px #F584EB;
+  -webkit-animation: bounce .5s;
+          animation: bounce .5s;
+}
+
 a.router-link-active {
   text-shadow: 4px 4px #F584EB;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  -webkit-transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+}
+
+.page {
+  position: absolute;
 }
 
 /*!
