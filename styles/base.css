@@ -15,7 +15,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-family: 'Pacifico', cursive;
-  text-shadow: 2px 2px #F58753;
+  text-shadow: 2px 2px #6CF599;
 }
 
 p {
@@ -30,6 +30,11 @@ p {
 
 .navbar-brand {
   font-family: 'Pacifico';
+}
+
+a:hover,
+a.router-link-active {
+  text-shadow: 4px 4px #F584EB;
 }
 
 /*!

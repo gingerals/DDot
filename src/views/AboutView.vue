@@ -1,8 +1,9 @@
 <template>
   <div class="text-center row">
     <h1>Bienvenido a</h1>
-    <img src="@/assets/logo.svg" class="about-logo mx-auto d-block rounded img-fluid col-4" alt="D'Dot logo">
+    <img src="@/assets/logo-about.png" class="about-logo mx-auto d-block rounded img-fluid col-4" alt="D'Dot logo">
 
+    <h3>Conocenos:</h3><br>
   <!-- Collapse -->
     <p>
       <a class="btn" data-bs-toggle="collapse" href="#equipoCollapse" role="button" aria-expanded="false"
