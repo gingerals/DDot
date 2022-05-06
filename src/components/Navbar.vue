@@ -14,10 +14,10 @@
            <router-link class="nav-link active" aria-current="page"  to="/">Inicio </router-link>
         </li>
         <li class="nav-item">
-           <router-link class="nav-link"  to="/about">Nosotros </router-link>
+           <router-link class="nav-link active"  to="/about">Nosotros </router-link>
         </li>
         <li class="nav-item dropdown">
-           <router-link class="nav-link dropdown-toggle"   id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+           <router-link class="nav-link dropdown-toggle active"   id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"
            to="/shop">
             Tienda
            </router-link>
